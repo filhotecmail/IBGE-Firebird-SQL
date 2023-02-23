@@ -1,5 +1,11 @@
 # Municípios Brasileiros - Tabela de Código IBGE
 
+A Tabela de Código de Municípios IBGE é uma lista numérica de códigos que identifica cada município brasileiro. Esses códigos são utilizados pelo Instituto Brasileiro de Geografia e Estatística (IBGE) para coletar, organizar e disponibilizar dados estatísticos sobre as características e indicadores socioeconômicos dos municípios do país.
+
+A tabela é composta por seis dígitos, sendo os dois primeiros referentes ao código do estado e os quatro últimos ao código do município dentro do estado. Por exemplo, o código 355030 representa o município de São Paulo, que está localizado no estado de São Paulo. O código 110020 representa o município de Porto Velho, que está localizado no estado de Rondônia.
+
+A Tabela de Código de Municípios IBGE é amplamente utilizada por órgãos governamentais, empresas, pesquisadores e outros usuários que precisam de informações estatísticas sobre os municípios brasileiros.
+
 ### Link para a Documentação da tabela
 [Pagina Html da Documentacao da Tabela](https://github.com/filhotecmail/IBGE-Firebird-SQL/blob/main/Result.html)
 
