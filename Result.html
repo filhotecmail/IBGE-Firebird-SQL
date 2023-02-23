@@ -1,0 +1,412 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<LINK HREF="IBEHTMLDoc.css" type=text/css rel=STYLESHEET>
+ 
+<xml>
+<IBEHelp:Attr Name="ItemOrder" Value="0800"/>
+</xml>
+ 
+</HEAD>
+<BODY>
+<P CLASS="Base">&nbsp;</P>
+<P CLASS="Header1">Description</P>
+<P CLASS="Base"></P><BR><HR>
+<P CLASS="Base">Database: 127.0.0.1:C:\Leopard-Frente-PDV-3.0\bin\PDV.FDB</P>
+<P CLASS="Base">&nbsp;</P>
+<P CLASS="Base">Domains&nbsp(0)</P>
+<P CLASS="Base"><A HREF="#_TABLES">Tables</A>&nbsp(1)</P>
+<P CLASS="Base">Views&nbsp(0)</P>
+<P CLASS="Base">Procedures&nbsp(0)</P>
+<P CLASS="Base"><A HREF="#_TRIGGERS">Triggers</A>&nbsp(2)</P>
+<P CLASS="Base">Generators&nbsp(0)</P>
+<P CLASS="Base"><A HREF="#_EXCEPTIONS">Exceptions</A>&nbsp(1)</P>
+<P CLASS="Base">UDFs&nbsp(0)</P>
+<P CLASS="Base"><A HREF="#_INDICES">Indices</A>&nbsp(1)</P>
+<P CLASS="Base">Foreign Keys&nbsp(0)</P>
+<P CLASS="Base">Checks&nbsp(0)</P>
+<P CLASS="Base">Roles&nbsp(0)</P>
+<HR><A NAME="_DOMAINS"><P CLASS="Header0">Domains</P></A>
+<P CLASS="Base">&nbsp;</P>
+<TABLE CLASS="dtArg" CELLSPACING="0">
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Domain</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Type</B></P>
+  <TH WIDTH="1%" ALIGN="middle"><P CLASS="Base2"><B>NN</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Default</B></P>
+  <TH WIDTH="50%"><P CLASS="Base2"><B>Description</B></P>
+</TABLE>
+
+<HR>
+<A NAME="_TABLES"><P CLASS="Header0">Tables</P></A>
+<P CLASS="Base">&nbsp;</P>
+<TABLE CLASS="dtArg" CELLSPACING="0">
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Table</B></P>
+  <TH><P CLASS="Base2"><B>Description</B></P>
+  <TR>
+    <TD><P CLASS="Base2"><A HREF="#TBL_MUNICIPIOS"><NOBR>MUNICIPIOS</NOBR></A></TD>
+    <TD><P CLASS="Base2">A Tabela de Código de Municípios IBGE é uma lista numérica de códigos que<br>identifica cada município brasileiro. Esses códigos são utilizados pelo<br>Instituto Brasileiro de Geografia e Estatística (IBGE) para coletar,<br>organizar e disponibilizar dados estatísticos sobre as características e<br>indicadores socioeconômicos dos municípios do país.<br><br>A tabela é composta por seis dígitos, sendo os dois primeiros referentes ao<br>código do estado e os quatro últimos ao código do município dentro do estado.<br>Por exemplo, o código 355030 representa o município de São Paulo, que está<br>localizado no estado de São Paulo. O código 110020 representa o município de<br>Porto Velho, que está localizado no estado de Rondônia.<br><br>A Tabela de Código de Municípios IBGE é amplamente utilizada por órgãos<br>governamentais, empresas, pesquisadores e outros usuários que precisam de<br>informações estatísticas sobre os municípios brasileiros.</TD>
+  </TR>
+</TABLE>
+
+<HR>
+<A NAME="TBL_MUNICIPIOS"><P CLASS="Header0">Table: MUNICIPIOS</P><P CLASS="Base">&nbsp;</P>
+<P CLASS="Header1">Description</P>
+<P CLASS="Base">A Tabela de Código de Municípios IBGE é uma lista numérica de códigos que<br>identifica cada município brasileiro. Esses códigos são utilizados pelo<br>Instituto Brasileiro de Geografia e Estatística (IBGE) para coletar,<br>organizar e disponibilizar dados estatísticos sobre as características e<br>indicadores socioeconômicos dos municípios do país.<br><br>A tabela é composta por seis dígitos, sendo os dois primeiros referentes ao<br>código do estado e os quatro últimos ao código do município dentro do estado.<br>Por exemplo, o código 355030 representa o município de São Paulo, que está<br>localizado no estado de São Paulo. O código 110020 representa o município de<br>Porto Velho, que está localizado no estado de Rondônia.<br><br>A Tabela de Código de Municípios IBGE é amplamente utilizada por órgãos<br>governamentais, empresas, pesquisadores e outros usuários que precisam de<br>informações estatísticas sobre os municípios brasileiros.</P>
+<P CLASS="Base">&nbsp;</P>
+<P CLASS="Header1">Fields</P>
+<TABLE CLASS="dtArg" CELLSPACING="0">
+  <TH WIDTH="1%" ALIGN="middle"><P CLASS="Base2"><B>PK</B></P>
+  <TH WIDTH="1%" ALIGN="middle"><P CLASS="Base2"><B>FK</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Field</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Domain</B></P>
+  <TH WIDTH="20%"><P CLASS="Base2"><B>Type</B></P>
+  <TH WIDTH="1%" ALIGN="middle"><P CLASS="Base2"><B>NN</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Default</B></P>
+  <TH WIDTH="40%"><P CLASS="Base2"><B>Description</B></P>
+  <TR>
+    <TD ALIGN="middle"><P CLASS="Base2"><IMG SRC="Images/PK1.gif" BORDER="0"></P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><A NAME="MUNICIPIOS.CODIGO_IBGE"><P CLASS="Base2">CODIGO_IBGE</P></A></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">INTEGER</P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2"><IMG SRC="Images/Yes.gif" BORDER="0"></P></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">CODIGO DO MUNICIPIO, UNIQUE KEY</P></TD>
+  </TR>
+  <TR>
+    <TD ALIGN="middle"><P CLASS="Base2">&nbsp;</P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><A NAME="MUNICIPIOS.NOME"><P CLASS="Base2">NOME</P></A></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">VARCHAR(100)</P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2"><IMG SRC="Images/Yes.gif" BORDER="0"></P></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">NOME DO MUNICIPIO NA TABELA IBGE</P></TD>
+  </TR>
+  <TR>
+    <TD ALIGN="middle"><P CLASS="Base2">&nbsp;</P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><A NAME="MUNICIPIOS.LATITUDE"><P CLASS="Base2">LATITUDE</P></A></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">NUMERIC(15,8)</P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2"><IMG SRC="Images/Yes.gif" BORDER="0"></P></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">LONGITUDE DO MUNICPIO NA TABELA DO IBGE</P></TD>
+  </TR>
+  <TR>
+    <TD ALIGN="middle"><P CLASS="Base2">&nbsp;</P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><A NAME="MUNICIPIOS.LONGITUDE"><P CLASS="Base2">LONGITUDE</P></A></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">NUMERIC(15,8)</P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2"><IMG SRC="Images/Yes.gif" BORDER="0"></P></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+  </TR>
+  <TR>
+    <TD ALIGN="middle"><P CLASS="Base2">&nbsp;</P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><A NAME="MUNICIPIOS.CAPITAL"><P CLASS="Base2">CAPITAL</P></A></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">SMALLINT</P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2"><IMG SRC="Images/Yes.gif" BORDER="0"></P></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">EH CAPITAL, 0 : FALSE OU 1: TRUE</P></TD>
+  </TR>
+  <TR>
+    <TD ALIGN="middle"><P CLASS="Base2">&nbsp;</P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><A NAME="MUNICIPIOS.CODIGO_UF"><P CLASS="Base2">CODIGO_UF</P></A></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">INTEGER</P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2"><IMG SRC="Images/Yes.gif" BORDER="0"></P></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">CODIGO DA UF DO MUNICIPIO</P></TD>
+  </TR>
+  <TR>
+    <TD ALIGN="middle"><P CLASS="Base2">&nbsp;</P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><A NAME="MUNICIPIOS.SIAFI_ID"><P CLASS="Base2">SIAFI_ID</P></A></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">VARCHAR(4)</P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2"><IMG SRC="Images/Yes.gif" BORDER="0"></P></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">SIAFI_ID É o Sistema Integrado de Administração Financeira do Governo Federal<br> que consiste no principal instrumento utilizado para registro, acompanhamento<br>e controle da execução orçamentária, financeira e patrimonial do Governo Federa</P></TD>
+  </TR>
+  <TR>
+    <TD ALIGN="middle"><P CLASS="Base2">&nbsp;</P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><A NAME="MUNICIPIOS.DDD"><P CLASS="Base2">DDD</P></A></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">INTEGER</P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2"><IMG SRC="Images/Yes.gif" BORDER="0"></P></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">CODIGO DDD DA REGIAO</P></TD>
+  </TR>
+  <TR>
+    <TD ALIGN="middle"><P CLASS="Base2">&nbsp;</P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><A NAME="MUNICIPIOS.FUSO_HORARIO"><P CLASS="Base2">FUSO_HORARIO</P></A></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">VARCHAR(32)</P></TD>
+    <TD ALIGN="middle"><P CLASS="Base2"><IMG SRC="Images/Yes.gif" BORDER="0"></P></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+    <TD><P CLASS="Base2">&nbsp;</P></TD>
+  </TR>
+</TABLE>
+<P CLASS="Base">&nbsp;</P>
+<P CLASS="Header1">Triggers</P>
+<TABLE CLASS="dtArg" CELLSPACING="0">
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Trigger</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Type</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Activity</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Order</B></P>
+  <TH WIDTH="50%"><P CLASS="Base2"><B>Description</B></P>
+  <TR>
+    <TD><P CLASS="Base2"><A HREF="#TRG_MUNICIPIOS_BD0">MUNICIPIOS_BD0</A></TD>
+    <TD><P CLASS="Base2">BEFORE&nbsp;DELETE</TD>
+    <TD><P CLASS="Base2">Yes</TD>
+    <TD ALIGN="right"><P CLASS="Base2">0</TD>
+    <TD><P CLASS="Base2">&nbsp</TD>
+  </TR>
+  <TR>
+    <TD><P CLASS="Base2"><A HREF="#TRG_MUNICIPIOS_BU0">MUNICIPIOS_BU0</A></TD>
+    <TD><P CLASS="Base2">BEFORE&nbsp;UPDATE</TD>
+    <TD><P CLASS="Base2">Yes</TD>
+    <TD ALIGN="right"><P CLASS="Base2">0</TD>
+    <TD><P CLASS="Base2">&nbsp</TD>
+  </TR>
+</TABLE>
+<P CLASS="Base">&nbsp;</P>
+<P CLASS="Header1">Indices</P>
+<TABLE CLASS="dtArg" CELLSPACING="0">
+  <TH><P CLASS="Base2"><B>Index</B></P>
+  <TH><P CLASS="Base2"><B>Fields</B></P>
+  <TH ALIGN="middle"><P CLASS="Base2"><B>Active</B></P>
+  <TH ALIGN="middle"><P CLASS="Base2"><B>Unique</B></P>
+  <TH ALIGN="middle"><P CLASS="Base2"><B>Order</B></P>
+  <TR>
+    <TD><P CLASS="Base2"><A HREF="#IND_PK_MUNICIPIOS">PK_MUNICIPIOS</A></TD>
+    <TD><P CLASS="Base2">CODIGO_IBGE</TD>
+    <TD ALIGN="middle"><P CLASS="Base2"><IMG SRC="Images/Yes.gif" BORDER="0"></TD>
+    <TD ALIGN="middle"><P CLASS="Base2"><IMG SRC="Images/Yes.gif" BORDER="0"></TD>
+    <TD ALIGN="middle"><P CLASS="Base2">ASC</TD>
+  </TR>
+</TABLE>
+<P CLASS="Base">&nbsp;</P>
+<P CLASS="Header1">References</P>
+<P CLASS="Base"><I>(There are no references for table MUNICIPIOS)</I></P>
+<P CLASS="Base">&nbsp;</P>
+<P CLASS="Header1">Referenced By</P>
+<P CLASS="Base"><I>(There are no tables referenced by table MUNICIPIOS)</I></P>
+<P CLASS="Base">&nbsp;</P>
+<P CLASS="Header1">Definition</P>
+<P CLASS="Base"><span class="DDLCode">
+<code><pre>
+<b>CREATE</b><b> </b><b>TABLE</b><b> </b><A HREF="#TBL_MUNICIPIOS">MUNICIPIOS</A><b> </b><b>(</b>
+<b>    </b>CODIGO_IBGE<b>   </b><b>INTEGER</b><b> </b><b>NOT</b><b> </b><b>NULL</b><b>,</b>
+<b>    </b>NOME<b>          </b><b>VARCHAR</b><b>(</b>100<b>)</b><b> </b><b>NOT</b><b> </b><b>NULL</b><b>,</b>
+<b>    </b>LATITUDE<b>      </b><b>NUMERIC</b><b>(</b>15<b>,</b>8<b>)</b><b> </b><b>NOT</b><b> </b><b>NULL</b><b>,</b>
+<b>    </b>LONGITUDE<b>     </b><b>NUMERIC</b><b>(</b>15<b>,</b>8<b>)</b><b> </b><b>NOT</b><b> </b><b>NULL</b><b>,</b>
+<b>    </b>CAPITAL<b>       </b><b>SMALLINT</b><b> </b><b>NOT</b><b> </b><b>NULL</b><b>,</b>
+<b>    </b>CODIGO_UF<b>     </b><b>INTEGER</b><b> </b><b>NOT</b><b> </b><b>NULL</b><b>,</b>
+<b>    </b>SIAFI_ID<b>      </b><b>VARCHAR</b><b>(</b>4<b>)</b><b> </b><b>NOT</b><b> </b><b>NULL</b><b>,</b>
+<b>    </b>DDD<b>           </b><b>INTEGER</b><b> </b><b>NOT</b><b> </b><b>NULL</b><b>,</b>
+<b>    </b>FUSO_HORARIO<b>  </b><b>VARCHAR</b><b>(</b>32<b>)</b><b> </b><b>NOT</b><b> </b><b>NULL</b>
+<b>)</b><b>;</b>
+
+
+<b>ALTER</b><b> </b><b>TABLE</b><b> </b><A HREF="#TBL_MUNICIPIOS">MUNICIPIOS</A><b> </b><b>ADD</b><b> </b><b>CONSTRAINT</b><b> </b>PK_MUNICIPIOS<b> </b><b>PRIMARY</b><b> </b><b>KEY</b><b> </b><b>(</b>CODIGO_IBGE<b>)</b><b>;</b>
+
+</pre></code>
+</span></P>
+<P CLASS="Base">&nbsp;</P>
+
+<HR>
+<A NAME="_VIEWS"><P CLASS="Header0">Views</P></A>
+<P CLASS="Base">&nbsp;</P>
+<TABLE CLASS="dtArg" CELLSPACING="0">
+  <TH WIDTH="1%"><P CLASS="Base2"><B>View</B></P>
+  <TH><P CLASS="Base2"><B>Description</B></P>
+</TABLE>
+
+<HR>
+<A NAME="_TRIGGERS"><P CLASS="Header0">Triggers</P></A>
+<P CLASS="Base">&nbsp;</P>
+<TABLE CLASS="dtArg" CELLSPACING="0">
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Trigger</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Table</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Type</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Active</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Position</B></P>
+  <TH WIDTH="40%"><P CLASS="Base2"><B>Description</B></P>
+  <TR>
+    <TD><P CLASS="Base2"><A HREF="#TRG_MUNICIPIOS_BD0">MUNICIPIOS_BD0</A></TD>
+    <TD><P CLASS="Base2"><A HREF="#TBL_MUNICIPIOS">MUNICIPIOS</A></TD>
+    <TD><P CLASS="Base2">BEFORE&nbsp;DELETE</TD>
+    <TD ALIGN="middle"><P CLASS="Base2"><IMG SRC="Images/Yes.gif" BORDER="0"></TD>
+    <TD ALIGN="right"><P CLASS="Base2">0</TD>
+    <TD><P CLASS="Base2">&nbsp</TD>
+  </TR>
+  <TR>
+    <TD><P CLASS="Base2"><A HREF="#TRG_MUNICIPIOS_BU0">MUNICIPIOS_BU0</A></TD>
+    <TD><P CLASS="Base2"><A HREF="#TBL_MUNICIPIOS">MUNICIPIOS</A></TD>
+    <TD><P CLASS="Base2">BEFORE&nbsp;UPDATE</TD>
+    <TD ALIGN="middle"><P CLASS="Base2"><IMG SRC="Images/Yes.gif" BORDER="0"></TD>
+    <TD ALIGN="right"><P CLASS="Base2">0</TD>
+    <TD><P CLASS="Base2">&nbsp</TD>
+  </TR>
+</TABLE>
+
+<HR><A NAME="TRG_MUNICIPIOS_BD0"><P CLASS="Header0">Trigger: MUNICIPIOS_BD0</P><P CLASS="Base">&nbsp;</P>
+<P CLASS="Header1">Description</P>
+<P CLASS="Base"><I>(There is no description for trigger MUNICIPIOS_BD0)</I></P>
+<P CLASS="Base">&nbsp;</P>
+<P CLASS="Header1">Definition</P>
+<P CLASS="Base"><span class="DDLCode">
+<code><pre>
+<b>CREATE</b><b> </b><b>TRIGGER</b><b> </b><A HREF="#TRG_MUNICIPIOS_BD0">MUNICIPIOS_BD0</A><b> </b><b>FOR</b><b> </b><A HREF="#TBL_MUNICIPIOS">MUNICIPIOS</A>
+<b>ACTIVE</b><b> </b><b>BEFORE</b><b> </b><b>DELETE</b><b> </b><b>POSITION</b><b> </b>0
+<b>AS</b>
+<b>begin</b>
+<b> </b><b>EXCEPTION</b><b> </b><A HREF="#EXC_EECRITICALFAIL">EECRITICALFAIL</A><b> </b>'TABELA DE SISTEMA - OPERACAO NAO PERMITIDA'<b>;</b>
+<b>end</b>
+
+</pre></code>
+</span></P>
+<P CLASS="Base">&nbsp;</P>
+
+<HR><A NAME="TRG_MUNICIPIOS_BU0"><P CLASS="Header0">Trigger: MUNICIPIOS_BU0</P><P CLASS="Base">&nbsp;</P>
+<P CLASS="Header1">Description</P>
+<P CLASS="Base"><I>(There is no description for trigger MUNICIPIOS_BU0)</I></P>
+<P CLASS="Base">&nbsp;</P>
+<P CLASS="Header1">Definition</P>
+<P CLASS="Base"><span class="DDLCode">
+<code><pre>
+<b>CREATE</b><b> </b><b>TRIGGER</b><b> </b><A HREF="#TRG_MUNICIPIOS_BU0">MUNICIPIOS_BU0</A><b> </b><b>FOR</b><b> </b><A HREF="#TBL_MUNICIPIOS">MUNICIPIOS</A>
+<b>ACTIVE</b><b> </b><b>BEFORE</b><b> </b><b>UPDATE</b><b> </b><b>POSITION</b><b> </b>0
+<b>AS</b>
+<b>begin</b>
+<b>EXCEPTION</b><b> </b><A HREF="#EXC_EECRITICALFAIL">EECRITICALFAIL</A><b> </b>'TABELA DE SISTEMA - OPERACAO NAO PERMITIDA'<b>;</b>
+<b>end</b>
+
+</pre></code>
+</span></P>
+<P CLASS="Base">&nbsp;</P>
+
+<HR>
+<A NAME="_PROCEDURES"><P CLASS="Header0">Procedures</P></A>
+<P CLASS="Base">&nbsp;</P>
+<TABLE CLASS="dtArg" CELLSPACING="0">
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Procedure</B></P>
+  <TH WIDTH="50%"><P CLASS="Base2"><B>Description</B></P>
+</TABLE>
+
+<HR>
+<A NAME="_GENERATORS"><P CLASS="Header0">Generators</P></A>
+<P CLASS="Base">&nbsp;</P>
+<TABLE CLASS="dtArg" CELLSPACING="0">
+  <TH><P CLASS="Base2"><B>Generator</B></P>
+  <TH><P CLASS="Base2"><B>Value</B></P>
+</TABLE>
+
+<HR>
+<A NAME="_EXCEPTIONS"><P CLASS="Header0">Exceptions</P></A>
+<P CLASS="Base">&nbsp;</P>
+<TABLE CLASS="dtArg" CELLSPACING="0">
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Exception</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>ID</B></P>
+  <TH WIDTH="45%"><P CLASS="Base2"><B>Exception text</B></P>
+  <TH WIDTH="50%"><P CLASS="Base2"><B>Description</B></P>
+  <TR>
+    <TD><P CLASS="Base2"><A HREF="#EXC_EECRITICALFAIL">EECRITICALFAIL</A></TD>
+    <TD><P CLASS="Base2">15</TD>
+    <TD><P CLASS="Base2">&nbsp;</TD>
+    <TD><P CLASS="Base2">&nbsp;</TD>
+  </TR>
+</TABLE>
+
+<HR>
+<A NAME="EXC_EECRITICALFAIL"><P CLASS="Header0">Exception: EECRITICALFAIL</P><P CLASS="Base">&nbsp;</P>
+<P CLASS="Header1">Definition</P>
+<P CLASS="Base"><span class="DDLCode">
+<code><pre>
+<b>CREATE</b><b> </b><b>EXCEPTION</b><b> </b><A HREF="#EXC_EECRITICALFAIL">EECRITICALFAIL</A><b> </b><b>AS</b><b> </b>''
+
+</pre></code>
+</span></P><P CLASS="Base">&nbsp;</P>
+<P CLASS="Header1">Description</P>
+<P CLASS="Base"><I>(There is no description for exception EECRITICALFAIL)</I></P>
+
+<HR>
+<A NAME="_UDFS"><P CLASS="Header0">UDFs</P></A>
+<P CLASS="Base">&nbsp;</P>
+<TABLE CLASS="dtArg" CELLSPACING="0">
+  <TH WIDTH="1%"><P CLASS="Base2"><B>UDF</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Entry Point</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Library Name</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Input Parameters</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Returns</B></P>
+  <TH><P CLASS="Base2"><B>Description</B></P>
+</TABLE>
+
+<HR>
+<A NAME="_INDICES"><P CLASS="Header0">Indices</P></A>
+<P CLASS="Base">&nbsp;</P>
+<TABLE CLASS="dtArg" CELLSPACING="0">
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Index</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Table</B></P>
+  <TH WIDTH="45%"><P CLASS="Base2"><B>Fields</B></P>
+  <TH WIDTH="1%" ALIGN="middle"><P CLASS="Base2"><B>Active</B></P>
+  <TH WIDTH="1%" ALIGN="middle"><P CLASS="Base2"><B>Unique</B></P>
+  <TH WIDTH="1%" ALIGN="middle"><P CLASS="Base2"><B>Order</B></P>
+  <TR>
+    <TD><P CLASS="Base2"><A HREF="#IND_PK_MUNICIPIOS">PK_MUNICIPIOS</A></TD>
+    <TD><P CLASS="Base2"><A HREF="#TBL_MUNICIPIOS">MUNICIPIOS</A></TD>
+    <TD><P CLASS="Base2">CODIGO_IBGE</TD>
+    <TD ALIGN="middle"><P CLASS="Base2"><IMG SRC="Images/Yes.gif" BORDER="0"></TD>
+    <TD ALIGN="middle"><P CLASS="Base2"><IMG SRC="Images/Yes.gif" BORDER="0"></TD>
+    <TD ALIGN="middle"><P CLASS="Base2">ASC</TD>
+  </TR>
+</TABLE>
+
+<HR>
+<A NAME="IND_PK_MUNICIPIOS"><P CLASS="Header0">Index: PK_MUNICIPIOS</P><P CLASS="Base">&nbsp;</P>
+<P CLASS="Header1">Definition</P>
+<P CLASS="Base"><span class="DDLCode">
+<code><pre>
+<b>CREATE</b><b> </b><b>UNIQUE</b><b> </b><b>INDEX</b><b> </b>PK_MUNICIPIOS<b> </b><b>ON</b><b> </b><A HREF="#TBL_MUNICIPIOS">MUNICIPIOS</A><b> </b><b>(</b>CODIGO_IBGE<b>)</b><b>;</b>
+
+</pre></code>
+</span></P>
+
+<HR>
+<A NAME="_FOREIGN_KEYS"><P CLASS="Header0">Foreign Keys</P></A>
+<P CLASS="Base">&nbsp;</P>
+<TABLE CLASS="dtArg" CELLSPACING="0">
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Foreign Key</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Table</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Fields</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>FK Table</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>FK Field</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Delete Rule</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Update Rule</B></P>
+</TABLE>
+
+<HR>
+<A NAME="_CHECKS"><P CLASS="Header0">Checks</P></A>
+<P CLASS="Base">&nbsp;</P>
+<TABLE CLASS="dtArg" CELLSPACING="0">
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Check</B></P>
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Table</B></P>
+  <TH WIDTH="80%"><P CLASS="Base2"><B>Source</B></P>
+</TABLE>
+
+<HR>
+<A NAME="_ROLES"><P CLASS="Header0">Roles</P></A>
+<P CLASS="Base">&nbsp;</P>
+<TABLE CLASS="dtArg" CELLSPACING="0">
+  <TH WIDTH="1%"><P CLASS="Base2"><B>Role</B></P>
+  <TH><P CLASS="Base2"><B>Members</B></P>
+</TABLE>
